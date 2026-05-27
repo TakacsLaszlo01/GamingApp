@@ -33,15 +33,27 @@ internal class Program
         while (!int.TryParse(Utils.Input("Adjon meg egy sorszámot:"), out id))
             Console.WriteLine("Pozitív egészet adjon meg!");
         title = Utils.Input("Adja meg a játék címét: ");
+        
+        //int year, month, day;
+        //while(!int.TryParse(Utils.Input("Adja meg a megjelenés évét:"), out year)      || year <= 1970)
+        //    Console.WriteLine("1970 utáni évszámot adjon meg!");
 
-        int year, month, day;
-        while(!int.TryParse(Utils.Input("Adja meg a megjelenés évét:"), out year) && year <= 1970)
-            Console.WriteLine("1970 utáni évszámot adjon meg!");
+        //while (!int.TryParse(Utils.Input("Adja meg a hónapot:"), out month)            || month < 1 || month > 12)
+        //    Console.WriteLine("1 és 12 közötti számot adjon meg!");
 
-        while (!int.TryParse(Utils.Input("Adja meg a hónapot:"), out month) && (month < 1 || month > 12))
-            Console.WriteLine("1 és 12 közötti számot adjon meg!");
+        //while (!int.TryParse(Utils.Input("Adja meg a napot:"), out day)
+        //        || day < 1 || day > 31)
+        //    Console.WriteLine("1 és 31 közötti számot adjon meg!");
+        //release = new DateTime(year, month, day);
 
-        while (!int.TryParse(Utils.Input("Adja meg a napot:"), out month) && (month < 1 || month > 12))
-            Console.WriteLine("1 és 31 közötti számot adjon meg!");
+        while(!DateTime.TryParse(Utils.Input("Adja meg a megjelenés dátumát (év-hónap-nap formátumban):"), out release))
+        {
+            Console.WriteLine("Nem megfelelő dátum vagy formátum!");
+        }
+
+        while (!int.TryParse(Utils.Input("Adjon meg egy korhatárt:"), out ageLimit) || ageLimit < 0 || ageLimit > 21)
+            Console.WriteLine("Pozitív egészet adjon meg!");
+
+        
     }
 }
