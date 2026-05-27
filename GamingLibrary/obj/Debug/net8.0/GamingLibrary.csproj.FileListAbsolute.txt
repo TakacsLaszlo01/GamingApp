@@ -1,0 +1,12 @@
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\GamingLibrary.csproj.AssemblyReference.cache
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\GamingLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\GamingLibrary.AssemblyInfoInputs.cache
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\GamingLibrary.AssemblyInfo.cs
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\GamingLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\bin\Debug\net8.0\GamingLibrary.deps.json
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\bin\Debug\net8.0\GamingLibrary.dll
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\bin\Debug\net8.0\GamingLibrary.pdb
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\GamingLibrary.dll
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\refint\GamingLibrary.dll
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\GamingLibrary.pdb
+C:\Users\tanar-taklas\source\repos\GamingApp\GamingLibrary\obj\Debug\net8.0\ref\GamingLibrary.dll
